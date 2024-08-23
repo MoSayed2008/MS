@@ -10,8 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hamster Key Generator</h1>
-        <div id="gameSelectContainer" class="grid-container">
+      <br> <br> <br> <br> <br>  <h5>MS TEAM</h5>   <div id="gameSelectContainer" class="grid-container">
             <div class="game-option" data-game="7">
             <img src="https://cdn.hamsterkombat.io/polysphere/image.webp" alt="Polysphere">
             <p>Polysphere</p>
@@ -45,7 +44,7 @@
         <div class="form-group hidden" id="keyCountGroup">
             <label for="keyCountSelect">Select Number of Keys:</label>
             <div id="keyCountSelect" class="key-slider">
-                <input type="range" min="1" max="10" value="1" id="keyRange">
+                <input type="range" min="1" max="4" value="1" id="keyRange">
                 <span id="keyValue">1</span>
             </div>
         </div>
@@ -65,15 +64,12 @@
             <button id="copyAllBtn" class="hidden">Copy All Keys</button>
         </div>
 
-        <p id="keyCountLabel">Number of keys:</p>
+        <p id="keyCountLabel" class="mss">Number of keys:</p>
 
         <button id="generateMoreBtn" class="hidden">Generate More Keys</button>
         <p id="copyStatus" class="hidden">Keys copied to clipboard!</p>
         
-        <div class="footer">
-            <p>Disclaimer: This tool is for educational purposes only. Use responsibly.</p>
-            <button id="sourceCode">Source code</button>
-        </div>
+      
     </div>
 
     <script src="script.js"></script>
